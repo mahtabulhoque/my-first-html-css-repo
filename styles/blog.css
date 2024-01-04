@@ -43,6 +43,23 @@
    
 
 }
+
+.select{
+    text-align: center;
+   font-size: 48px;
+   border-bottom:1px ; 
+   border-color: rgb(109, 11, 11);
+   border-style: solid;
+   border-width: 5px;
+   border-top: 0;
+   border-left: 0;
+   border-right:0 ;
+   box-shadow: 5px 5px 5px rgb(90, 35, 87);
+   padding-bottom: 30px;
+   margin-bottom: 60px;
+   
+   
+}
 .article p{
     font-size: 28px;
     line-height: 2em;
@@ -78,5 +95,42 @@
     background-position: bottom center;
     padding: 90px;
     
+}
+nav > ul{
+    display:flex;
+    margin-right: 20px;
+    
+
+}
+
+nav li> a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: lightskyblue;
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    padding-left: 10px;
+}
+nav li:hover .dropdown{
+    display: block;
 }
 

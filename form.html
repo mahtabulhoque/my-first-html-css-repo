@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our form</title>
+    <style>
+        *{
+            background-color:lightyellow;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+         
+
+        }
+        
+        
+    </style>
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="form.html">FORM</a></li>
+                <li><a href="select.html">SELECT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Your Name:
+                    <input type="text"
+                  placeholder="your name">
+                </label>
+                <label for="email">Your Email: <input type="text" id="email" placeholder="Your Email"></label>
+
+                <label for="phone">Phone Number: <input type="text" id="Phone" placeholder="Phone Number"></label>
+
+                <fieldset>
+                    <legend>Pick One</legend>
+                    <label for="Car repair">
+                        <input type="radio" name="car" id="Car repair">Car Repair</label>
+                        <label for="Car wash">
+                            <input type="radio" name="car" id="Car wash">Car Wash</label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
