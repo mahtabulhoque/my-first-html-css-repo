@@ -1,0 +1,81 @@
+.cars{
+    background-image: url('../tekton-UuO9Jdu2d7E-unsplash.jpg');
+    height:100vh;
+    background-size:cover ;
+    background-position: bottom center;
+}
+.cars h1{
+    color: rgb(255, 255, 0);
+    font-size: 100px;
+    text-align: center;
+    font-weight:900;
+    margin-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+.article{
+    width: 80%;
+    margin: 60px auto;
+    background-color: rgb(126, 227, 227);
+    padding:60px;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: solid;
+    
+    
+}
+.article h2, .our{
+   text-align: center;
+   font-size: 48px;
+   border-bottom:1px ; 
+   border-color: rgb(109, 11, 11);
+   border-style: solid;
+   border-width: 5px;
+   border-top: 0;
+   border-left: 0;
+   border-right:0 ;
+   /* box-shadow: 5px 5px 5px rgb(90, 35, 87); */
+   padding-bottom: 30px;
+   margin-bottom: 60px;
+
+   
+
+}
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+
+}
+.article p .imp{
+    font-size:2em;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  gap: 500px;
+  justify-content: center;
+
+}
+.images div{
+    width: 300px;
+}
+.images img{
+    width: 100%;
+}
+.services{
+    text-align: center;
+    color: rgb(222, 255, 33);
+    font-size: 60px;
+    border-width: 5px;
+   border-top: 0;
+   border-left: 0;
+   border-right:0 ;
+    background-image: url('../jose-pinto-yeMpSqF8Z-8-unsplash.jpg');
+    height:100vh;
+    background-size:cover ;
+    background-position: bottom center;
+    
+}
+
